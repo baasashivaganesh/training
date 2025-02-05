@@ -1,0 +1,25 @@
+functional based component:-
+-this is similar to javascript functions.
+
+
+
+component composition:-
+-multiple components are combined together to make one single application.
+note:-every component must be created with capital letters.
+ex:-APP.jsx/App.jsx
+
+-two components should not have a same name in the same directory.
+-to call a component in side an other component <app/> or <app></app>
+
+props children:-
+-a props.children is a type of props used to share the information such as data from one children to another children
+
+props drilling:-
+-prop is passing through multiple child elements to print in last child element.
+-props drilling is a passing data down to child component.
+
+state:-
+-state is an object which is used to store/ isolate the data inside the component
+-state is a mutable.
+
+
