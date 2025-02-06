@@ -22,4 +22,20 @@ state:-
 -state is an object which is used to store/ isolate the data inside the component
 -state is a mutable.
 
+class component:-
+-in class component we have default state object.
+
+functional component:-
+-functional component by default is a stateless until Reacr v16.8, later they introduced "hooks"
+concept which makes react functional component as statefull component.
+
+
+hooks:-hooks are nothing but functions which are used to provide all the features of a class.
+basic hooks are:-
+1.usestate()
+2.useEffect()
+3.useContext()
+note:-
+this keyword:-it will target current element.
+
 
