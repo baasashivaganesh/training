@@ -55,14 +55,15 @@
 //!state
 import React from 'react'
 // import CBCStateEx from './propsexample/stateexamples/CBCStateEx'
-import FBCStateEX from './propsexample/stateexamples/FBCStateEx'
+import { myForm } from './Components/myForm'
 
 const App = () => {
   return (
     <div>
       app
       {/* <CBCStateEx ></CBCStateEx> */}
-      <FBCStateEX></FBCStateEX>
+      {/* <FBCStateEX></FBCStateEX> */}
+      <myForm></myForm>
     </div>
   )
 }
