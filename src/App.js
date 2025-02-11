@@ -55,7 +55,8 @@
 //!state
 import React from 'react'
 // import CBCStateEx from './propsexample/stateexamples/CBCStateEx'
-import { myForm } from './Components/myForm'
+// import { myForm } from './Components/myForm'
+import ExUSeEffect from './Components/hooks/ExUseEffect'
 
 const App = () => {
   return (
@@ -63,7 +64,8 @@ const App = () => {
       app
       {/* <CBCStateEx ></CBCStateEx> */}
       {/* <FBCStateEX></FBCStateEX> */}
-      <myForm></myForm>
+      {/* <myForm></myForm> */}
+      <ExUSeEffect></ExUSeEffect>
     </div>
   )
 }

@@ -39,3 +39,15 @@ note:-
 this keyword:-it will target current element.
 
 
+2.useEffect():-
+-useEffect is a function that allows developers to do some necessary side effects such as setTimeout,api fetching,updating the state etc.
+syntax:-useEffect(callbackFunction, dependency)
+
+3.useRef();-
+-this hook is used to target the real dom elements.
+-we should avoid using of ref more except some situations like media controllings,animations.
+
+-
+
+
+
