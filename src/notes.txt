@@ -48,6 +48,17 @@ syntax:-useEffect(callbackFunction, dependency)
 -we should avoid using of ref more except some situations like media controllings,animations.
 
 -
+Routing:-
+******************
+-routing in react is a third party library used to provide navigation between the two components or pages without reloading .
+-routing not belongs to react by default,we have to install this third party library.
+-library is "react-router-dom".
+-npm install react-router-dom@latest
+
+"react-router-dom":"7.1.5",
+7-major updation
+1-minor updation
+5-patch(small updation)
 
 
 

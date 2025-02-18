@@ -1,74 +1,19 @@
-// import Main from ".components/Main";
-// import Footer from ".components/Footer";
-// import Navbar from "./Components/Navbar";
-// import Sidebar from "./Components/Sidebar";
-// // import sidebar1 from "./components/sidebar1";
-// const App=()=>{
-//     return(
-//         <div className="app">
-//             <Navbar></Navbar>
-//             <Main></Main>
-//             <div className="sidebar">
-//                 <Sidebar></Sidebar>
-//                 <sidebar1></sidebar1>
-//                 </div>
-//                 <Footer/>
-//                 </div>
-//     )
-// }
-// export default App;
-
-// import React from 'react'
-// import FBCPropex1 from './propsexample/FBCPropex1'
-
-// const App = () => {
-//     return (
-//         <div>
-//             <FBCPropex1
-//             username="Tarun"
-//             isLoggedIn={true}
-//             hobbies={["Roaming" , "Watching movies" , "travel" , "studies"]}
-//             />
-
-//         </div>
-//     )
-
-// }
-// export default App
-
-// import React from "react";
-// import PropsChildrenEx from './propsexample/PropsChildrenEx'
-// import ChildProps from "./propsexample/ChildProps";
-
-// const App = () => {
-//     return (
-//         <div>
-//             <PropsChildrenEx username="hemanth" company="gooogle">
-//                 <h1> this data is passed as a props children</h1>
-//                 <ChildProps/>
-//             </PropsChildrenEx>
-//         </div>
-//     )
-// }
-// export default App
-
-//!state
-import React from 'react'
-// import CBCStateEx from './propsexample/stateexamples/CBCStateEx'
-// import { myForm } from './Components/myForm'
-import ExUSeEffect from './Components/hooks/ExUseEffect'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './crudcomponents/Home';
+import Create from './crudcomponents/Create';
+import Edit from './crudcomponents/Edit';
 
 const App = () => {
   return (
-    <div>
-      app
-      {/* <CBCStateEx ></CBCStateEx> */}
-      {/* <FBCStateEX></FBCStateEX> */}
-      {/* <myForm></myForm> */}
-      <ExUSeEffect></ExUSeEffect>
-    </div>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/edit/:id" element={<Edit />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
-
+export default App;
